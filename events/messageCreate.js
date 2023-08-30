@@ -16,7 +16,7 @@ module.exports = {
                 message.reply({content: 'For (Wipe/Report/Problems) please open ticket on <#831886363938259001>'})
             }
             if (messages2.some(word => message.content.includes(word))) {
-                message.reply({content: 'Please send your whitelist request in our website: https://ultimatex.online'})
+                message.reply({content: 'Please send your whitelist request in our website: https://www.ultimatex.online/'})
             }
 
             const args = message.content.slice(prefix.length).trim().split(' ')
